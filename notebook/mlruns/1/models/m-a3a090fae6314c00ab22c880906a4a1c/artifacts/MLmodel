@@ -1,0 +1,23 @@
+artifact_path: /Users/himmat/all-concept/notebook/mlruns/1/models/m-a3a090fae6314c00ab22c880906a4a1c/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.17.2
+model_id: m-a3a090fae6314c00ab22c880906a4a1c
+model_size_bytes: 17953
+model_uuid: m-a3a090fae6314c00ab22c880906a4a1c
+prompts: null
+run_id: 3b142b38cc66493cad93331f42fd09e0
+utc_time_created: '2026-10-30 14:48:38.672563'
